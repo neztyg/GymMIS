@@ -1,0 +1,52 @@
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\bin\Debug\Muscle Flex Gym Management System.exe
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\bin\Debug\Muscle Flex Gym Management System.pdb
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\bin\Debug\Muscle Flex Gym Management System.xml
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle Flex Gym IS.vbprojResolveAssemblyReference.cache
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmMain.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmSplashScreen.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmPackages.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmCheckin.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmClientList.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmPostMemReg.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmTerms.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmClientMonitor.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmTemp.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmRegistration.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmSales.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmPrintOpt.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmModProduct.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.Resources.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmReportViewer.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle Flex Gym IS.vbproj.GenerateResource.Cache
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle Flex Gym Management System.exe
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle Flex Gym Management System.xml
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle Flex Gym Management System.pdb
+C:\Users\Admin\documents\visual studio 2010\Projects\Muscle Flex Gym IS\Muscle Flex Gym IS\bin\Debug\Muscle Flex Gym Management System.exe.config
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\bin\Debug\Muscle Flex Gym Management System.exe.config
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\bin\Debug\Muscle Flex Gym Management System.exe
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\bin\Debug\Muscle Flex Gym Management System.pdb
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\bin\Debug\Muscle Flex Gym Management System.xml
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\bin\Debug\Muscle Flex Gym Management System.exe.CodeAnalysisLog.xml
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\bin\Debug\Muscle Flex Gym Management System.exe.lastcodeanalysissucceeded
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle Flex Gym IS.vbprojResolveAssemblyReference.cache
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmMain.resources
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmSplashScreen.resources
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmAbout.resources
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmPackageSelector.resources
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmPackages.resources
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmClientInfo.resources
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmMonitoringList.resources
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmPostMemReg.resources
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmTerms.resources
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmClientList.resources
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmTemp.resources
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmRegistration.resources
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmSales.resources
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmPrintOpt.resources
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmModProduct.resources
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.Resources.resources
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle_Flex_Gym_IS.frmReportViewer.resources
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle Flex Gym IS.vbproj.GenerateResource.Cache
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle Flex Gym Management System.exe
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle Flex Gym Management System.xml
+C:\Users\Nezty\Desktop\Muscle Flex Gym IS\Muscle Flex Gym IS\obj\x86\Debug\Muscle Flex Gym Management System.pdb

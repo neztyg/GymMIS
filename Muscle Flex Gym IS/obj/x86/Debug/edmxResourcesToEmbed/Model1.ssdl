@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MuscleFlexDB_Sales.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="MuscleFlexDB_SalesStoreContainer">
+    <EntitySet Name="viewProdSales" EntityType="MuscleFlexDB_Sales.Store.viewProdSales" store:Type="Views" store:Schema="dbo" store:Name="viewProdSales">
+      <DefiningQuery>SELECT 
+      [viewProdSales].[SaleID] AS [SaleID], 
+      [viewProdSales].[ProductID] AS [ProductID], 
+      [viewProdSales].[ProductCode] AS [ProductCode], 
+      [viewProdSales].[Description] AS [Description], 
+      [viewProdSales].[Price] AS [Price], 
+      [viewProdSales].[SoldDateTime] AS [SoldDateTime], 
+      [viewProdSales].[QtySold] AS [QtySold], 
+      [viewProdSales].[AmountPaid] AS [AmountPaid], 
+      [viewProdSales].[Stock] AS [Stock]
+      FROM [dbo].[viewProdSales] AS [viewProdSales]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'MuscleFlexDB.dbo.viewProdSales' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="viewProdSales">
+    <Key>
+      <PropertyRef Name="SaleID" />
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="SaleID" Type="int" Nullable="false" />
+    <Property Name="ProductID" Type="int" Nullable="false" />
+    <Property Name="ProductCode" Type="varchar" MaxLength="50" />
+    <Property Name="Description" Type="varchar" MaxLength="50" />
+    <Property Name="Price" Type="decimal" Precision="9" Scale="2" />
+    <Property Name="SoldDateTime" Type="datetime" />
+    <Property Name="QtySold" Type="int" />
+    <Property Name="AmountPaid" Type="decimal" Precision="9" Scale="2" />
+    <Property Name="Stock" Type="int" />
+  </EntityType>
+</Schema>

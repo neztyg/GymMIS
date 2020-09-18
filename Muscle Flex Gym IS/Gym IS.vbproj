@@ -1,0 +1,656 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{41E57EBE-3CB4-4858-AA2C-E9460C900A26}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Gym_IS.My.MyApplication</StartupObject>
+    <RootNamespace>Gym_IS</RootNamespace>
+    <AssemblyName>Gym Management System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>E:\GymIS\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <TargetCulture>en-PH</TargetCulture>
+    <ProductName>Muscle Flex Fitness Gym</ProductName>
+    <PublisherName>Nesty Gem Gordo</PublisherName>
+    <SuiteName>Fitness Gym Monitoring System</SuiteName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationVersion>0.6.100.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Gym Management System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Gym Management System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>GGM.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>C72CF12F95D9465551701325C36CFA1E3EC7780D</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Muscle Flex Gym IS_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>Gym Management System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\Muscle Flex Gym Management System.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>Gym Management System.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\Muscle Flex Gym Management System.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>Custom</TargetZone>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DPCtlUruNet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7f32ef930fec5e5f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Modules\DPCtlUruNet.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="DPUruNet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7f32ef930fec5e5f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Modules\DPUruNet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.PowerShell.Commands.Utility, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\WindowsPowerShell\v1.0\Microsoft.PowerShell.Commands.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Management.Automation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\WindowsPowerShell\v1.0\System.Management.Automation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="CrystalDecisions.CrystalReports" />
+    <Import Include="DPCtlUruNet" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing.Imaging" />
+    <Import Include="System.Management" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="frmSplashScreen.designer.vb">
+      <DependentUpon>frmSplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.vb">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\Clients\Updates\frmCardNumUpdate.Designer.vb">
+      <DependentUpon>frmCardNumUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\Clients\Updates\frmCardNumUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\Clients\Updates\frmClientMembershipUpdate.Designer.vb">
+      <DependentUpon>frmClientMembershipUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\Clients\Updates\frmClientMembershipUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\Clients\Updates\frmClientUpdateInfo.Designer.vb">
+      <DependentUpon>frmClientUpdateInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\Clients\Updates\frmClientUpdateInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\Clients\Updates\frmMeasurement.Designer.vb">
+      <DependentUpon>frmMeasurement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\Clients\Updates\frmMeasurement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\Clients\Updates\frmRFIDUpdate.Designer.vb">
+      <DependentUpon>frmRFIDUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\Clients\Updates\frmRFIDUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\Clients\Updates\frmUpdateLockerAssign.Designer.vb">
+      <DependentUpon>frmUpdateLockerAssign.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\Clients\Updates\frmUpdateLockerAssign.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\Clients\Updates\frmUpdateFingerID.Designer.vb">
+      <DependentUpon>frmUpdateFingerID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\Clients\Updates\frmUpdateFingerID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\Clients\Updates\frmClientMonthlyRenew.Designer.vb">
+      <DependentUpon>frmClientMonthlyRenew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\Clients\Updates\frmClientMonthlyRenew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\frmClientCheckins.designer.vb">
+      <DependentUpon>frmClientCheckins.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\frmClientCheckins.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\frmLockerRemarks.Designer.vb">
+      <DependentUpon>frmLockerRemarks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\frmLockerRemarks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\frmLogin.designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\Trainer\frmTrainerUpdate.Designer.vb">
+      <DependentUpon>frmTrainerUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\Trainer\frmTrainerUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\frmTrainers.Designer.vb">
+      <DependentUpon>frmTrainers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\frmTrainers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\frmConfirmPopper.designer.vb">
+      <DependentUpon>frmConfirmPopper.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\frmConfirmPopper.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\frmLockerList.Designer.vb">
+      <DependentUpon>frmLockerList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\frmLockerList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\Clients\Registration\frmPackageSelector.Designer.vb">
+      <DependentUpon>frmPackageSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\Clients\Registration\frmPackageSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\Trainer\frmTrainer.Designer.vb">
+      <DependentUpon>frmTrainer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\Trainer\frmTrainer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\Packages\frmPackages.Designer.vb">
+      <DependentUpon>frmPackages.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\Packages\frmPackages.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\Clients\Updates\frmClientInfo.Designer.vb">
+      <DependentUpon>frmClientInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\Clients\Updates\frmClientInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\frmMonitoringList.Designer.vb">
+      <DependentUpon>frmMonitoringList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\frmMonitoringList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\frmTerms.Designer.vb">
+      <DependentUpon>frmTerms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\frmTerms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\Clients\frmClientList.Designer.vb">
+      <DependentUpon>frmClientList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\Clients\frmClientList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\Products Sales\frmSales.Designer.vb">
+      <DependentUpon>frmSales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\Products Sales\frmSales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\clsListSorter.vb" />
+    <Compile Include="Modules\clsPrintReport.vb" />
+    <Compile Include="Reports\crClientSalesDaily.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crAttendancebyDate.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\crMonthlySalesReport.vb">
+      <DependentUpon>crMonthlySalesReport.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\crMonthlySubsList.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crMonthlySubsList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\crTransactionDaily.vb">
+      <DependentUpon>crTransactionDaily.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\crApplicationFormBlank.vb">
+      <DependentUpon>crApplicationFormBlank.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\crInvoice.vb">
+      <DependentUpon>crInvoice.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\crAttendancebyDate.vb">
+      <DependentUpon>crAttendancebyDate.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\crYearlyAttendance.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crYearlyAttendance.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\frmReportsView.Designer.vb">
+      <DependentUpon>frmReportsView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmReportsView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\Products Sales\frmModProduct.Designer.vb">
+      <DependentUpon>frmModProduct.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\Products Sales\frmModProduct.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\CustomsConsts.vb" />
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTemp.Designer.vb">
+      <DependentUpon>frmTemp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTemp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front ends\Clients\Registration\frmRegistration.Designer.vb">
+      <DependentUpon>frmRegistration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Front ends\Clients\Registration\frmRegistration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\clsCamModule.vb" />
+    <Compile Include="Modules\clsWindowMods.vb" />
+    <Compile Include="Modules\modConnection.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Reports\crApplicationForm.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crApplicationForm.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\frmReportViewer.Designer.vb">
+      <DependentUpon>frmReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplashScreen.resx">
+      <DependentUpon>frmSplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\Clients\Updates\frmCardNumUpdate.resx">
+      <DependentUpon>frmCardNumUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\Clients\Updates\frmClientMembershipUpdate.resx">
+      <DependentUpon>frmClientMembershipUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\Clients\Updates\frmClientUpdateInfo.resx">
+      <DependentUpon>frmClientUpdateInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\Clients\Updates\frmMeasurement.resx">
+      <DependentUpon>frmMeasurement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\Clients\Updates\frmRFIDUpdate.resx">
+      <DependentUpon>frmRFIDUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\Clients\Updates\frmUpdateLockerAssign.resx">
+      <DependentUpon>frmUpdateLockerAssign.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\Clients\Updates\frmUpdateFingerID.resx">
+      <DependentUpon>frmUpdateFingerID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\Clients\Updates\frmClientMonthlyRenew.resx">
+      <DependentUpon>frmClientMonthlyRenew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\frmClientCheckins.resx">
+      <DependentUpon>frmClientCheckins.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\frmLockerRemarks.resx">
+      <DependentUpon>frmLockerRemarks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\Trainer\frmTrainerUpdate.resx">
+      <DependentUpon>frmTrainerUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\frmTrainers.resx">
+      <DependentUpon>frmTrainers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\frmConfirmPopper.resx">
+      <DependentUpon>frmConfirmPopper.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\frmLockerList.resx">
+      <DependentUpon>frmLockerList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\Clients\Registration\frmPackageSelector.resx">
+      <DependentUpon>frmPackageSelector.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\Trainer\frmTrainer.resx">
+      <DependentUpon>frmTrainer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\Packages\frmPackages.resx">
+      <DependentUpon>frmPackages.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\Clients\Updates\frmClientInfo.resx">
+      <DependentUpon>frmClientInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\frmMonitoringList.resx">
+      <DependentUpon>frmMonitoringList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\frmTerms.resx">
+      <DependentUpon>frmTerms.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\Clients\frmClientList.resx">
+      <DependentUpon>frmClientList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTemp.resx">
+      <DependentUpon>frmTemp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\Clients\Registration\frmRegistration.resx">
+      <DependentUpon>frmRegistration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\Products Sales\frmSales.resx">
+      <DependentUpon>frmSales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crMonthlySalesReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crMonthlySalesReport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crMonthlySubsList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crMonthlySubsList.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crTransactionDaily.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crTransactionDaily.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crApplicationFormBlank.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crApplicationFormBlank.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crInvoice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crInvoice.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crAttendancebyDate.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crAttendancebyDate.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crYearlyAttendance.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crYearlyAttendance.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmReportsView.resx">
+      <DependentUpon>frmReportsView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front ends\Products Sales\frmModProduct.resx">
+      <DependentUpon>frmModProduct.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crApplicationForm.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crApplicationForm.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmReportViewer.resx">
+      <DependentUpon>frmReportViewer.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GGM.ico" />
+    <Content Include="mf.ico" />
+    <None Include="Resources\Splash.jpg" />
+    <None Include="Resources\GGM.png" />
+    <None Include="Resources\renew.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

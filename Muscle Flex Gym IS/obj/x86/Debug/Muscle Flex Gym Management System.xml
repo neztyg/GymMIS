@@ -1,0 +1,448 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MuscleFlexGymManagementSystem
+</name>
+</assembly>
+<members>
+<member name="P:Muscle_Flex_Gym_IS.frmRegistration.Fmds">
+	<summary>
+ Holds fmds enrolled by the enrollment GUI.
+ </summary>
+</member><member name="P:Muscle_Flex_Gym_IS.frmRegistration.Reset">
+	<summary>
+ Reset the UI causing the user to reselect a reader.
+ </summary>
+</member><member name="M:Muscle_Flex_Gym_IS.frmRegistration.OpenReader">
+	<summary>
+ Open a device and check result for errors.
+ </summary>
+	<returns>Returns true if successful; false if unsuccessful</returns>
+</member><member name="M:Muscle_Flex_Gym_IS.frmRegistration.StartCaptureAsync(DPUruNet.Reader.CaptureCallback)">
+	<summary>
+ Hookup capture handler and start capture.
+ </summary>
+	<param name="OnCaptured">Delegate to hookup as handler of the On_Captured event</param>
+	<returns>Returns true if successful; false if unsuccessful</returns>
+</member><member name="M:Muscle_Flex_Gym_IS.frmRegistration.CancelCaptureAndCloseReader(DPUruNet.Reader.CaptureCallback)">
+	<summary>
+ Cancel the capture and then close the reader.
+ </summary>
+	<param name="OnCaptured">Delegate to unhook as handler of the On_Captured event </param>
+</member><member name="M:Muscle_Flex_Gym_IS.frmRegistration.GetStatus">
+	<summary>
+ Check the device status before starting capture.
+ </summary>
+</member><member name="M:Muscle_Flex_Gym_IS.frmRegistration.CheckCaptureResult(DPUruNet.CaptureResult)">
+	<summary>
+ Check quality of the resulting capture.
+ </summary>
+</member><member name="M:Muscle_Flex_Gym_IS.frmRegistration.CaptureFingerAsync">
+	<summary>
+ Function to capture a finger. Always get status first and calibrate or wait if necessary.  Always check status and capture errors.
+ </summary>
+</member><member name="M:Muscle_Flex_Gym_IS.frmRegistration.CreateBitmap(System.Byte[],System.Int32,System.Int32)">
+	<summary>
+ Create a bitmap from raw data in row/column format.
+ </summary>
+</member><member name="M:Muscle_Flex_Gym_IS.frmRegistration.OnCaptured(DPUruNet.CaptureResult)">
+	<summary>
+ Handler for when a fingerprint is captured.
+ </summary>
+	<param name="captureResult">contains info and data on the fingerprint capture</param>
+</member><member name="M:Muscle_Flex_Gym_IS.frmRegistration.Enrollment_Closed(System.Object,System.EventArgs)">
+	<summary>
+ Close window.
+ </summary>
+</member><member name="P:Muscle_Flex_Gym_IS.frmMain.Fmds">
+	<summary>
+ Holds fmds enrolled by the enrollment GUI.
+ </summary>
+</member><member name="P:Muscle_Flex_Gym_IS.frmMain.Reset">
+	<summary>
+ Reset the UI causing the user to reselect a reader.
+ </summary>
+</member><member name="M:Muscle_Flex_Gym_IS.frmMain.OpenReader">
+	<summary>
+ Open a device and check result for errors.
+ </summary>
+	<returns>Returns true if successful; false if unsuccessful</returns>
+</member><member name="M:Muscle_Flex_Gym_IS.frmMain.StartCaptureAsync(DPUruNet.Reader.CaptureCallback)">
+	<summary>
+ Hookup capture handler and start capture.
+ </summary>
+	<param name="OnCaptured">Delegate to hookup as handler of the On_Captured event</param>
+	<returns>Returns true if successful; false if unsuccessful</returns>
+</member><member name="M:Muscle_Flex_Gym_IS.frmMain.CancelCaptureAndCloseReader(DPUruNet.Reader.CaptureCallback)">
+	<summary>
+ Cancel the capture and then close the reader.
+ </summary>
+	<param name="OnCaptured">Delegate to unhook as handler of the On_Captured event </param>
+</member><member name="M:Muscle_Flex_Gym_IS.frmMain.GetStatus">
+	<summary>
+ Check the device status before starting capture.
+ </summary>
+</member><member name="M:Muscle_Flex_Gym_IS.frmMain.CheckCaptureResult(DPUruNet.CaptureResult)">
+	<summary>
+ Check quality of the resulting capture.
+ </summary>
+</member><member name="M:Muscle_Flex_Gym_IS.frmMain.CaptureFingerAsync">
+	<summary>
+ Function to capture a finger. Always get status first and calibrate or wait if necessary.  Always check status and capture errors.
+ </summary>
+</member><member name="M:Muscle_Flex_Gym_IS.frmMain.CreateBitmap(System.Byte[],System.Int32,System.Int32)">
+	<summary>
+ Create a bitmap from raw data in row/column format.
+ </summary>
+</member><member name="M:Muscle_Flex_Gym_IS.frmMain.OnCaptured(DPUruNet.CaptureResult)">
+	<summary>
+ Handler for when a fingerprint is captured.
+ </summary>
+	<param name="captureResult">contains info and data on the fingerprint capture</param>
+</member><member name="M:Muscle_Flex_Gym_IS.frmMain.AddMonthToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ TEMPLATE
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Muscle_Flex_Gym_IS.frmMain.MemberToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ END
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_agreement">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_alarm_clock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_arrow_pointing_to_right">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_badge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_barcode_scanner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_bill">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_camera_outline">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_cash">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_cash_in_hand">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_cash_in_hand_sm">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_checked">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_checked_user_female">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_checked_user_male">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_circled_arrow_right">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_clinic">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_clock_outline">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_collapse_arrow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_collapse_arrow_sm">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_collapse_arrow_xsm">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_connection_status_on">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_do_not_disturb">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_do_not_disturb_sm">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_drop_down_arrow_3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_drop_down_arrow_3_xsm">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_edit_profile">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_edit_row">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_edit_row_sm">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_edit_row_xsm">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_female_leader">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_find_user_male">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_find_user_male_sm">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_fingerprint">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_fingerprint_scan">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_gear_outline_3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_green_check_mark_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_inspection">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_key">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_lock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_lock_outline_3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_lock_outline_4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_member">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_minimize_window">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_minimize_window_sm">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_minimize_window_xsm">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_not_applicable">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_paid">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_paycheque">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_philippines">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_plus">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_plus_sm">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_plus_xsm">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_print">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_print_sm">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_print_xsm">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_product_code">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_protected_shield">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_question_mark_outline">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_question_mark_outline_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_receipt">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_registration">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_replace">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_reset">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_resume">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_save_button">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_save_button_sm">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_save_button_xsm">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_school_director">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_server">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_stop_sign">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_thumbs_up_with_a_pointing_finger">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_trash">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_trial">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_user_female_skin_type_1_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_user_male_skin_type_1_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_view_more">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_view_more_sm">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_x_mark">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.icons8_x_mark_lg">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Muscle_Flex_Gym_IS.My.Resources.Resources.Logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Muscle_Flex_Gym_IS.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

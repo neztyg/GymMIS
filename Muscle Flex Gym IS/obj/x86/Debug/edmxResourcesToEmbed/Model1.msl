@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MuscleFlexDB_SalesStoreContainer" CdmEntityContainer="MuscleFlexDBEntities">
+    <EntitySetMapping Name="viewProdSales">
+      <EntityTypeMapping TypeName="MuscleFlexDB_Sales.viewProdSale">
+        <MappingFragment StoreEntitySet="viewProdSales">
+          <ScalarProperty Name="SaleID" ColumnName="SaleID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="SoldDateTime" ColumnName="SoldDateTime" />
+          <ScalarProperty Name="QtySold" ColumnName="QtySold" />
+          <ScalarProperty Name="AmountPaid" ColumnName="AmountPaid" />
+          <ScalarProperty Name="Stock" ColumnName="Stock" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
